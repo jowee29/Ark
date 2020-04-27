@@ -19,3 +19,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 
 Route::get('/','DogsController@index');
+Route::get('/api','DogsController@index');
